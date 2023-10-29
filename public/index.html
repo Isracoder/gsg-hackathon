@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Analysis</title>
+  </head>
+  <body>
+    <h1>Image Analysis</h1>
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <br />
+      <input type="submit" value="Analyze Image" />
+    </form>
+
+    <h1>Celebrity Analysis</h1>
+    <form action="/celebs" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <br />
+      <input type="submit" value="Analyze Image" />
+    </form>
+
+    <h1>Find text in Image</h1>
+    <form action="/findText" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <br />
+      <input type="submit" value="Analyze Image" />
+    </form>
+  </body>
+</html>

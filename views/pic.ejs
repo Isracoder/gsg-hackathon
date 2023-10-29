@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  </head>
+  <body>
+    <!-- <h1>Image Analysis</h1>
+    <form  action="/analyze" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <br />
+      <input type="submit" value="Analyze Image" />
+    </form>
+
+    <h1>Celebrity Analysis</h1>
+    <form action="/celebs" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required />
+      <br />
+      <input type="submit" value="Analyze Image" />
+    </form> -->
+
+    
+    <h1>Dynamic Content with EJS</h1>
+<% for (let i = 0; i < picData.length; i++) { %>
+    <img src="/<%= picData[i] %>" alt="">
+<% } %>
+     
+    
+  </body>
+</html>

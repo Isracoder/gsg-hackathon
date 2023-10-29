@@ -1,0 +1,267 @@
+{
+  "CelebrityFaces": [
+    {
+      "Urls": [
+        "www.wikidata.org/wiki/Q234644",
+        "www.imdb.com/name/nm0647634"
+      ],
+      "Name": "Elizabeth Olsen",
+      "Id": "4sV4wz",
+      "Face": {
+        "BoundingBox": {
+          "Width": 0.07650230079889297,
+          "Height": 0.20429874956607819,
+          "Left": 0.5173144340515137,
+          "Top": 0.2860378921031952
+        },
+        "Confidence": 99.99813079833984,
+        "Landmarks": [
+          {
+            "Type": "nose",
+            "X": 0.5548409819602966,
+            "Y": 0.40248626470565796
+          },
+          {
+            "Type": "mouthLeft",
+            "X": 0.5386652946472168,
+            "Y": 0.4448966383934021
+          },
+          {
+            "Type": "mouthRight",
+            "X": 0.5699364542961121,
+            "Y": 0.4456488788127899
+          },
+          {
+            "Type": "eyeRight",
+            "X": 0.5744268298149109,
+            "Y": 0.3689170181751251
+          },
+          {
+            "Type": "eyeLeft",
+            "X": 0.5367018580436707,
+            "Y": 0.3678800165653229
+          }
+        ],
+        "Pose": {
+          "Roll": 0.9685598611831665,
+          "Yaw": -1.686192512512207,
+          "Pitch": 11.284972190856934
+        },
+        "Quality": {
+          "Brightness": 66.12379455566406,
+          "Sharpness": 7.589449882507324
+        },
+        "Emotions": [
+          {
+            "Type": "CONFUSED",
+            "Confidence": 42.688785552978516
+          },
+          {
+            "Type": "SURPRISED",
+            "Confidence": 42.50300216674805
+          },
+          {
+            "Type": "CALM",
+            "Confidence": 11.32715892791748
+          },
+          {
+            "Type": "FEAR",
+            "Confidence": 1.4473305940628052
+          },
+          {
+            "Type": "SAD",
+            "Confidence": 0.7292070984840393
+          },
+          {
+            "Type": "HAPPY",
+            "Confidence": 0.5670758485794067
+          },
+          {
+            "Type": "ANGRY",
+            "Confidence": 0.5641425251960754
+          },
+          {
+            "Type": "DISGUSTED",
+            "Confidence": 0.17329822480678558
+          }
+        ],
+        "Smile": {
+          "Value": false,
+          "Confidence": 98.96363830566406
+        }
+      },
+      "MatchConfidence": 85.79174041748047,
+      "KnownGender": {
+        "Type": "Female"
+      }
+    }
+  ],
+  "UnrecognizedFaces": [
+    {
+      "BoundingBox": {
+        "Width": 0.11022091656923294,
+        "Height": 0.3276129364967346,
+        "Left": 0.745160698890686,
+        "Top": 0.1129348948597908
+      },
+      "Confidence": 99.99785614013672,
+      "Landmarks": [
+        {
+          "Type": "nose",
+          "X": 0.7464667558670044,
+          "Y": 0.3006705045700073
+        },
+        {
+          "Type": "mouthLeft",
+          "X": 0.7780610918998718,
+          "Y": 0.3590363562107086
+        },
+        {
+          "Type": "mouthRight",
+          "X": 0.7850877642631531,
+          "Y": 0.3472912609577179
+        },
+        {
+          "Type": "eyeRight",
+          "X": 0.7832376956939697,
+          "Y": 0.24007654190063477
+        },
+        {
+          "Type": "eyeLeft",
+          "X": 0.773940920829773,
+          "Y": 0.25571954250335693
+        }
+      ],
+      "Pose": {
+        "Roll": -26.35674285888672,
+        "Yaw": -72.7512435913086,
+        "Pitch": 23.36737823486328
+      },
+      "Quality": {
+        "Brightness": 81.00668334960938,
+        "Sharpness": 46.02980041503906
+      },
+      "Emotions": [
+        {
+          "Type": "ANGRY",
+          "Confidence": 85.39849090576172
+        },
+        {
+          "Type": "FEAR",
+          "Confidence": 10.612621307373047
+        },
+        {
+          "Type": "DISGUSTED",
+          "Confidence": 2.5513739585876465
+        },
+        {
+          "Type": "CONFUSED",
+          "Confidence": 0.42685070633888245
+        },
+        {
+          "Type": "HAPPY",
+          "Confidence": 0.32308366894721985
+        },
+        {
+          "Type": "SAD",
+          "Confidence": 0.28080037236213684
+        },
+        {
+          "Type": "SURPRISED",
+          "Confidence": 0.24410951137542725
+        },
+        {
+          "Type": "CALM",
+          "Confidence": 0.16267706453800201
+        }
+      ],
+      "Smile": {
+        "Value": false,
+        "Confidence": 80.13968658447266
+      }
+    },
+    {
+      "BoundingBox": {
+        "Width": 0.10791432857513428,
+        "Height": 0.3211023807525635,
+        "Left": 0.1999300867319107,
+        "Top": 0.07819182425737381
+      },
+      "Confidence": 99.99658966064453,
+      "Landmarks": [
+        {
+          "Type": "nose",
+          "X": 0.31269028782844543,
+          "Y": 0.26261720061302185
+        },
+        {
+          "Type": "mouthLeft",
+          "X": 0.2723613679409027,
+          "Y": 0.3188590705394745
+        },
+        {
+          "Type": "mouthRight",
+          "X": 0.28429827094078064,
+          "Y": 0.3133322298526764
+        },
+        {
+          "Type": "eyeRight",
+          "X": 0.28741034865379333,
+          "Y": 0.20376761257648468
+        },
+        {
+          "Type": "eyeLeft",
+          "X": 0.2723233699798584,
+          "Y": 0.20869305729866028
+        }
+      ],
+      "Pose": {
+        "Roll": -9.596893310546875,
+        "Yaw": 73.36748504638672,
+        "Pitch": -11.52713680267334
+      },
+      "Quality": {
+        "Brightness": 77.5464859008789,
+        "Sharpness": 32.20803451538086
+      },
+      "Emotions": [
+        {
+          "Type": "CALM",
+          "Confidence": 93.50431823730469
+        },
+        {
+          "Type": "ANGRY",
+          "Confidence": 4.3102569580078125
+        },
+        {
+          "Type": "CONFUSED",
+          "Confidence": 1.0398719310760498
+        },
+        {
+          "Type": "HAPPY",
+          "Confidence": 0.37450748682022095
+        },
+        {
+          "Type": "DISGUSTED",
+          "Confidence": 0.31284794211387634
+        },
+        {
+          "Type": "SAD",
+          "Confidence": 0.19471901655197144
+        },
+        {
+          "Type": "SURPRISED",
+          "Confidence": 0.18244510889053345
+        },
+        {
+          "Type": "FEAR",
+          "Confidence": 0.08103440701961517
+        }
+      ],
+      "Smile": {
+        "Value": false,
+        "Confidence": 98.75263214111328
+      }
+    }
+  ]
+}
