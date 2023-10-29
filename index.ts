@@ -1,7 +1,7 @@
 import express from "express";
 // import {  } from "aws-sdk/clients/iot.js";
 // import "aws-sdk";
-import info from "./info.js";
+// import info from "./info.js";
 // import Rekognition from "aws-sdk";
 // import "aws-sdk";
 import AWS from "aws-sdk";
@@ -19,12 +19,14 @@ import "reflect-metadata";
 import db from "./db/index.js";
 import { Image } from "./db/entities/Image.js";
 const storage = multer.memoryStorage();
+import dotenv from "dotenv";
+dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 AWS.config.update({
-  accessKeyId: info.aws_access_key,
-  secretAccessKey: info.aws_secret_access_key,
-  region: info.region,
+  accessKeyId: process.env.aws_access_key,
+  secretAccessKey: process.env.aws_secret_access_key,
+  region: process.env.region,
 });
 const reco = new AWS.Rekognition();
 
